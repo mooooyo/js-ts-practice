@@ -1,0 +1,18 @@
+{
+  "name": "js-ts-practice",
+  "version": "1.0.0",
+  "description": "JavaScript and TypeScript practice problems",
+  "scripts": {
+    "test:js": "node javascript/2025-08-31-01.js",
+    "test:ts": "npx ts-node typescript/2025-08-31-02.ts",
+    "compile:ts": "tsc typescript/*.ts --outDir dist"
+  },
+  "keywords": ["javascript", "typescript", "practice", "learning"],
+  "author": "mooooyo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
